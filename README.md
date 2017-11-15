@@ -1,2 +1,23 @@
 # Deep-JS-Foundations
-These are from the new and updated lessons by kyle simpsons lectures.
+
+These excercise files are taken and completed from the course "Deep JS Foundation" by Kyle Simpson.
+Workshop held by frontEndMasters.
+Kyle Simpson covers the deep foundations of Javascript and teaches from the ground zero.
+These course covers topics like : 
+
+- Coercion
+    - Primitive Types.
+    - Natives.
+    - Coercion. 
+    - Equality
+
+- Scope, Closures
+    - Nested Scope
+    - Hoisting
+    - Closure
+    - Modules
+    
+- The dreaded "this"
+- Prototype
+- Objects
+

@@ -28,7 +28,6 @@ function initUI() {
 }
 
 function validateWorkEntry(description, minutes) {
-  // TODO
   if (description.length < 5) return false;
   if (/^\s*$/.test(minutes) || Number.isNaN(Number(minutes)) || minutes < 0 || minutes > 600) {
     return false;
@@ -39,7 +38,7 @@ function validateWorkEntry(description, minutes) {
 
 function addProject(description) {
   var projectId = Math.round(Math.random() * 1e4);
-  var projectEntryData = { id: projectId, description: description, work: [] };
+  var projectEntryData = { id: projectId, description: description, work: [], time: 0 };
   projects.push(projectEntryData);
 
   addProjectToList(projectEntryData);
